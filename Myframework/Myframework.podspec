@@ -14,6 +14,6 @@ spec.resources = "Myframework/**/*.{png,jpeg,jpg,storyboard,xib,xcassets}"
 spec.source_files = "Myframework/**/*.{swift}"
 
 spec.source       = { :git => "https://github.com/rajeshblaze/Myframework.git", :branch => "Myframework",
-                   :tag => s.version.to_s 
+                   :tag => spec.version.to_s
 }
 end
